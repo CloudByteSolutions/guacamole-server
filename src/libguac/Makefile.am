@@ -167,10 +167,11 @@ libguac_la_LDFLAGS =     \
     @JPEG_LIBS@          \
     @PNG_LIBS@           \
     @PTHREAD_LIBS@       \
-    @RT_LIBS@            \
+    $(RT_LIBS)           \
     @SSL_LIBS@           \
     @UUID_LIBS@          \
     @VORBIS_LIBS@        \
     @WEBP_LIBS@          \
     @WINSOCK_LIBS@
+
 
